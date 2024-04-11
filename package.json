@@ -1,0 +1,17 @@
+{
+  "name": "brazil-geo-lookup",
+  "version": "1.0.0",
+  "description": "Simples api para listar cidades e estados",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Leandro Gazoli",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
