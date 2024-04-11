@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simples api para listar cidades e estados",
   "main": "./dist/index.js",
+  "types": "./dist/interfaces.d.ts",
   "scripts": {
     "build": "tsc"
   },
