@@ -1,6 +1,6 @@
 {
   "name": "brazil-geo-lookup",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Simples api para listar cidades e estados",
   "main": "./dist/index.js",
   "types": "./dist/interfaces.d.ts",

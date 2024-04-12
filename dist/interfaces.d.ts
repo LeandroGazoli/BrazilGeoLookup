@@ -1,3 +1,4 @@
+import { AxiosResponse } from 'axios';
 export interface Region {
     id: number;
     sigla: string;
@@ -29,3 +30,6 @@ export interface CountyResponse {
     codigo_ibge: string;
 }
 export type CountiesResponse = County[];
+export declare function getUfs(): Promise<AxiosResponse<UfResponse[]>>;
+export declare function getUfByCode(code: string): Promise<AxiosResponse<UfResponse>>;
+export declare function getContiesByUf(uf: string): Promise<CountyResponse[]>;
